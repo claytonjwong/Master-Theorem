@@ -30,7 +30,7 @@
 ![](images/comparison.png)
 * [What is Big-O notation?](https://en.wikipedia.org/wiki/Big_O_notation)
 
-## Pragmatic Analysis
+# Pragmatic Analysis
 ### Example 1: Karatsuba Multiplication
 * [Source Code ( trivial templates )](https://github.com/claytonjwong/Algorithms-Stanford/tree/master/course1/karatsuba_multiplication)
 * [Source Code ( non-trivial strings )](https://github.com/claytonjwong/Algorithms-Stanford/tree/master/course1/karatsuba_multi_string)
@@ -86,6 +86,29 @@
         return res;
     }
 ```
+#### Python
+```python
+    def go( A ):
+        if len( A ) < 2:
+            return A
+        P = len( A ) // 2
+        return merge( go( A[ :P ] ), go( A[ P: ] ) )
+    
+    def merge( L, R ):
+        A = []
+        i = 0
+        j = 0
+        while i < len( L ) and j < len( R ):
+            if L[ i ] < R[ j ]:
+                A.append( L[ i ] )
+                i += 1
+            else:
+                A.append( R[ j ] )
+                j += 1
+        A.extend( L[ i: ] )
+        A.extend( R[ j: ] )
+        return A
+```
 
 ## Citations
 * **Examples & Source Code:** [Algorithms specialization from Standford University via Coursera](https://claytonjwong.github.io/Algorithms-Stanford)
@@ -94,4 +117,4 @@
 * **Images:** https://www.wikipedia.org
   * [What is recursion?](https://en.wikipedia.org/wiki/Recursion#In_mathematics)
   * [What is Big-O notation?](https://en.wikipedia.org/wiki/Big_O_notation)
-* **Mathematical formulas:** https://www.codecogs.com/latex/eqneditor.php
+* **Mathematical formulas:** [https://www.codecogs.com/latex/eqneditor.php](codecogs.com)
