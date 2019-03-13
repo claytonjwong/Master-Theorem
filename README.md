@@ -3,31 +3,31 @@
 * [What is an algorithm?](https://claytonjwong.github.io/Algorithms-Stanford)
 * [What is recursion?](https://en.wikipedia.org/wiki/Recursion#In_mathematics)
 
-![](triangle.png)
+![](images/triangle.png)
 
 [The Sierpinski triangle](https://en.wikipedia.org/wiki/Sierpinski_triangle) is a confined recursion of triangles that form a [fractal](https://en.wikipedia.org/wiki/Fractal)
 
 
 ## Base Case
-![](base.png)
+![](images/base.png)
 
 ## Recursive Case
-![](recurrence.png)
+![](images/recurrence.png)
 
 ## Parameters
-![](cn0.png)
+![](images/cn0.png)
 
-![](rsp.png)
+![](images/rsp.png)
 
-![](rws.png)
+![](images/rws.png)
 
-![](combine.png)
+![](images/combine.png)
 
 ## Asymptotic Bound
-![](asymptotic.png)
+![](images/asymptotic.png)
 
 ## Big-O Comparisons
-![](comparison.png)
+![](images/comparison.png)
 * [What is Big-O notation?](https://en.wikipedia.org/wiki/Big_O_notation)
 
 ## Pragmatic Analysis
