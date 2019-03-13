@@ -65,6 +65,12 @@
         return u * pow10( N ) + ( v -u -w ) * pow10( N/2 ) + w
 ```
 
+The rate of sub-problem proliferation ```a = 3``` since ```go()``` recursively invokes itself three times.  The rate of work shrinkage per sub-problem ```b = 2``` since each sub-problem computes upon half the input.  The work performed outside recursive calls is ```O( n )``` since each input digit is read once to determine the number's length, thus ```d = 1```.  
+
+**Therefore:**
+
+![](images/log23.png)
+
 ### Example 2: Merge Sort
 * [Source Code](https://github.com/claytonjwong/Algorithms-Stanford/tree/master/course1/merge_sort)
 #### C++
@@ -109,6 +115,11 @@
         A.extend( R[ j: ] )
         return A
 ```
+The rate of sub-problem proliferation ```a = 2``` since ```go()``` recursively invokes itself two times.  The rate of work shrinkage per sub-problem ```b = 2``` since each sub-problem computes upon half the input.  The work performed outside recursive calls is ```O( n )``` since each input array is read once to determine the merge result, thus ```d = 1```.  
+
+**Therefore:**
+
+![](images/nlogn.png)
 
 ## Citations
 * **Examples & Source Code:** [Algorithms specialization from Standford University via Coursera](https://claytonjwong.github.io/Algorithms-Stanford)
