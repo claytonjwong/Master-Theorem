@@ -114,7 +114,7 @@
 * **Examples & Source Code:** [Algorithms specialization from Standford University via Coursera](https://claytonjwong.github.io/Algorithms-Stanford)
   * [Karasuba Multiplication](https://github.com/claytonjwong/Algorithms-Stanford/tree/master/course1/karatsuba_multi_string)
   * [Merge Sort](https://github.com/claytonjwong/Algorithms-Stanford/tree/master/course1/merge_sort)
-* **Images:** https://www.wikipedia.org
+* **Images:** [https://www.wikipedia.org](wikipedia.org)
   * [What is recursion?](https://en.wikipedia.org/wiki/Recursion#In_mathematics)
   * [What is Big-O notation?](https://en.wikipedia.org/wiki/Big_O_notation)
 * **Mathematical formulas:** [https://www.codecogs.com/latex/eqneditor.php](codecogs.com)
