@@ -1,6 +1,6 @@
 # Master Theorem
 #### Determine the asymptotic bound of recursive algorithms via standard recurrences
-* [What is an algorithm?](https://claytonjwong.github.io/Algorithms-Stanford)
+* [What is an algorithm?](https://en.wikipedia.org/wiki/Algorithm)
 * [What is recursion?](https://en.wikipedia.org/wiki/Recursion#In_mathematics)
 
 ![](images/triangle.png)
