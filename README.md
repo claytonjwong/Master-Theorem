@@ -32,8 +32,6 @@
 
 # Pragmatic Analysis
 ### Example 1: Karatsuba Multiplication
-* [Source Code ( trivial templates )](https://github.com/claytonjwong/Algorithms-Stanford/tree/master/course1/karatsuba_multiplication)
-* [Source Code ( non-trivial strings )](https://github.com/claytonjwong/Algorithms-Stanford/tree/master/course1/karatsuba_multi_string)
 #### C++
 ```cpp
     Type go( Type x, Type y )
@@ -72,7 +70,6 @@ The rate of sub-problem proliferation ```a = 3``` since ```go()``` recursively i
 ![](images/log23.png)
 
 ### Example 2: Merge Sort
-* [Source Code](https://github.com/claytonjwong/Algorithms-Stanford/tree/master/course1/merge_sort)
 #### C++
 ```cpp
     Collection go( Collection&& A )
@@ -122,9 +119,6 @@ The rate of sub-problem proliferation ```a = 2``` since ```go()``` recursively i
 ![](images/nlogn.png)
 
 ## Citations
-* **Examples & Source Code:** [Algorithms specialization from Standford University via Coursera](https://claytonjwong.github.io/Algorithms-Stanford)
-  * [Karasuba Multiplication](https://github.com/claytonjwong/Algorithms-Stanford/tree/master/course1/karatsuba_multi_string)
-  * [Merge Sort](https://github.com/claytonjwong/Algorithms-Stanford/tree/master/course1/merge_sort)
 * **Images:** [wikipedia.org](https://www.wikipedia.org)
   * [What is recursion?](https://en.wikipedia.org/wiki/Recursion#In_mathematics)
   * [What is Big-O notation?](https://en.wikipedia.org/wiki/Big_O_notation)
